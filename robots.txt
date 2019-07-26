@@ -1,0 +1,12 @@
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: *
+Disallow: /?＿escaped_fragment＿=/search
+Disallow: /?＿escaped_fragment＿=/userreg
+Disallow: /?＿escaped_fragment＿=/resetpassword
+Disallow: /?＿escaped_fragment＿=/error
+Disallow: /home/start%23!content
+Disallow: /%23!/error
+
+Sitemap: https://kazuki12.github.io/sitemap_index.xml
