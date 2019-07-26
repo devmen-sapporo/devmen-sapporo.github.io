@@ -1,1 +1,11 @@
-<html><body>AAAAA</body></html>
+<html><body>
+最近気づいたんだけど、null の可能性があるオブジェクト同士を比較する場合、
+
+o1.equals(o2);
+だと、exception が発生するし、null チェックするの面倒だなと思ってググっていたら Java7 から
+
+Objects.equals(o1, o2) 
+って static メソッドが追加されてたんだね。
+  
+</body>
+</html>
